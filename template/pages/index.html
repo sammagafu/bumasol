@@ -6,13 +6,13 @@
     <section class="demo_1 banner_section" id="home">
       <div class="container">
         <div class="row justify-content-md-center text-center">
-          <div class="col-md-8 col-lg-6">
+          <div class="col-md-10 col-lg-8">
             <div class="banner_title margin-b-5">
-              <h1>Your Visual Bookmark Manager</h1>
+              <h1>Automatated Business Management Solution</h1>
               <p>
-                The project management tool teams use to stay organized,
-                avoid delays, and have time for the work that matters
-                most.
+                Our solutions brings you closer to a complete picture of financial success.
+
+
               </p>
               <button type="button" class="btn scale rounded-pill btn-video btn_video" data-toggle="modal" data-src="https://www.youtube.com/embed/VvHoHw5AWTk" data-target="#mdllVideo">
                 <i class="tio play_circle"></i>
@@ -32,33 +32,33 @@
     <!-- Start logos -->
     <section class="logos_section padding-t-5 text-center">
       <div class="container">
-        <h3>Trusted by content creators across the world</h3>
+        <h3>Trusted by different businesses across the world</h3>
         <div class="row justify-content-md-center">
           <div class="col-md-10">
             <div class="wrapper_logos">
               <div class="items bxslider">
                 <a class="item-client" href="#" target="_blank">
-                  <img src="assets/img/logos/slack.png" alt="" />
+                  <img src="{% static 'assets/img/logos/slack.png' %}" alt="" />
                   <span>Visit site</span>
                 </a>
                 <a class="item-client" href="#" target="_blank">
-                  <img src="assets/img/logos/fitbit.png" alt="" />
+                  <img src="{% static 'assets/img/logos/fitbit.png' %}" alt="" />
                   <span>Visit site</span>
                 </a>
                 <a class="item-client" href="#" target="_blank">
-                  <img src="assets/img/logos/google.png" alt="" />
+                  <img src="{% static 'assets/img/logos/google.png' %}" alt="" />
                   <span>Visit site</span>
                 </a>
                 <a class="item-client" href="#" target="_blank">
-                  <img src="assets/img/logos/netflix.png" alt="" />
+                  <img src="{% static 'assets/img/logos/netflix.png' %}" alt="" />
                   <span>Visit site</span>
                 </a>
                 <a class="item-client" href="#" target="_blank">
-                  <img src="assets/img/logos/slack.png" alt="" />
+                  <img src="{% static 'assets/img/logos/slack.png' %}" alt="" />
                   <span>Visit site</span>
                 </a>
                 <a class="item-client" href="#" target="_blank">
-                  <img src="assets/img/logos/uber.png" alt="" />
+                  <img src="{% static 'assets/img/logos/uber.png' %}" alt="" />
                   <span>Visit site</span>
                 </a>
               </div>
@@ -89,7 +89,7 @@
             <div class="items_serv" data-aos="fade-up" data-aos-delay="0">
               <div class="media">
                 <div class="item-img">
-                  <img src="assets/img/icons/phone.svg" alt="" />
+                  <img src="{% static 'assets/img/icons/phone.svg' %}" alt="" />
                 </div>
                 <div class="media-body">
                   <div class="txt-small">
@@ -108,7 +108,7 @@
             <div class="items_serv" data-aos="fade-up" data-aos-delay="100">
               <div class="media">
                 <div class="item-img">
-                  <img src="assets/img/icons/name.svg" alt="" />
+                  <img src="{% static 'assets/img/icons/name.svg' %}" alt="" />
                 </div>
                 <div class="media-body">
                   <div class="txt-small">
@@ -127,7 +127,7 @@
             <div class="items_serv" data-aos="fade-up" data-aos-delay="200">
               <div class="media">
                 <div class="item-img">
-                  <img src="assets/img/icons/discount.svg" alt="" />
+                  <img src="{% static 'assets/img/icons/discount.svg' %}" alt="" />
                 </div>
                 <div class="media-body">
                   <div class="txt-small">
@@ -166,20 +166,20 @@
               </p>
               <ul class="list-group">
                 <li class="list-group-item media border-0">
-                  <img src="assets/img/icons/note.svg" alt="" />
+                  <img src="{% static 'assets/img/icons/note.svg' %}" alt="" />
                   <div class="media-body">
                     List of the tasks that require your attention.
                   </div>
                 </li>
                 <li class="list-group-item media border-0">
-                  <img src="assets/img/icons/calendar.svg" alt="" />
+                  <img src="{% static 'assets/img/icons/calendar.svg' %}" alt="" />
                   <div class="media-body">
                     Google Calendar integration to see when interruptions
                     will happen.
                   </div>
                 </li>
                 <li class="list-group-item media border-0">
-                  <img src="assets/img/icons/writing.svg" alt="" />
+                  <img src="{% static 'assets/img/icons/writing.svg' %}" alt="" />
                   <div class="media-body">
                     Google Drive integration to easy access your docs and
                     files.
@@ -191,7 +191,7 @@
           <!-- img -->
           <div class="col-lg-7">
             <div class="images_desc">
-              <img src="assets/img/features-product.png" alt="" />
+              <img src="{% static 'assets/img/features-product.png' %}" alt="" />
             </div>
           </div>
         </div>
@@ -205,67 +205,43 @@
         <div class="row justify-content-md-center">
           <div class="col-md-8 col-lg-6 text-center">
             <div class="title_sections">
-              <h2>Product Docs</h2>
+              <h2>An app for every need</h2>
               <p>
-                Beautiful docs for your APIs, Products, FAQs, User Guides,
+                The only platform you will ever need to help run your business  
               </p>
             </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-6 col-lg-3 margin-b-5">
+          <div class="col-md-6 col-lg-4 margin-b-5">
             <div class="item_pro" data-aos="fade-up" data-aos-delay="0">
               <div class="icon_t">
                 <i class="tio github"></i>
               </div>
-              <h3>Github Sync</h3>
+              <h3>Sales</h3>
               <p>
-                Keep your workflow and sync your docs with GitHub.
+                CRM, Sales, Invoicing, subscription, Rental
               </p>
             </div>
           </div>
-          <div class="col-md-6 col-lg-3 margin-b-5 mx-auto">
+          <div class="col-md-6 col-lg-4 margin-b-5 mx-auto">
             <div class="item_pro" data-aos="fade-up" data-aos-delay="100">
               <div class="icon_t">
                 <i class="tio diamond_outlined"></i>
               </div>
-              <h3>Branding</h3>
+              <h3>Operation</h3>
               <p>
-                Keep your workflow and sync your docs with GitHub.
+                Accounting, Consolidation, Projects, Timesheets, Helpdesk, Inventory, Purchase & Documents
               </p>
             </div>
           </div>
-          <div class="col-md-6 col-lg-3 margin-b-5">
+          <div class="col-md-6 col-lg-4 margin-b-5">
             <div class="item_pro" data-aos="fade-up" data-aos-delay="200">
               <div class="icon_t">
                 <i class="tio robot"></i>
               </div>
-              <h3>Insights</h3>
-              <p>
-                Keep your workflow and sync your docs with GitHub.
-              </p>
-            </div>
-          </div>
-          <div class="w-100 d-none d-lg-block"></div>
-          <div class="col-md-6 col-lg-3 margin-b-5">
-            <div class="item_pro" data-aos="fade-up" data-aos-delay="0">
-              <div class="icon_t">
-                <i class="tio sms_active_outlined"></i>
-              </div>
-              <h3>Comments</h3>
-              <p>
-                Keep your workflow and sync your docs with GitHub.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3 margin-b-5 mx-auto">
-            <div class="item_pro" data-aos="fade-up" data-aos-delay="100">
-              <div class="icon_t">
-                <i class="tio timer_20_s"></i>
-              </div>
-              <h3>Infinite History</h3>
-              <p>
-                Keep your workflow and sync your docs with GitHub.
+              <h3>Manufacturing</h3>
+              <p>Manufacturing, PLM, Maintenance, Quality, Repair
               </p>
             </div>
           </div>
@@ -286,7 +262,7 @@
 
       <!-- Scroll Horizontal -->
       <div class="Slide_horizontal_scroll">
-        <img class="title_svg" src="assets/img/text.svg" />
+        <img class="title_svg" src="{% static 'assets/img/text.svg' %}" />
         <div id="pinContainer">
           <div class="container">
             <div id="slideContainer">
@@ -294,7 +270,7 @@
                 <div class="col-md-12">
                   <div class="item_slide panel">
                     <div class="block_img">
-                      <img src="assets/img/02.png" alt="" />
+                      <img src="{% static 'assets/img/02.png' %}" alt="" />
                       <div class="item__name">
                         <div class="txt">
                           <h4 class="txt1">Budget</h4>
@@ -307,7 +283,7 @@
                 <div class="col-md-12">
                   <div class="item_slide panel">
                     <div class="block_img">
-                      <img src="assets/img/03.png" alt="" />
+                      <img src="{% static 'assets/img/03.png' %}" alt="" />
                       <div class="item__name">
                         <div class="txt">
                           <h4 class="txt1">Budget</h4>
@@ -320,7 +296,7 @@
                 <div class="col-md-12">
                   <div class="item_slide panel">
                     <div class="block_img">
-                      <img src="assets/img/04.png" alt="" />
+                      <img src="{% static 'assets/img/04.png' %}" alt="" />
                       <div class="item__name">
                         <div class="txt">
                           <h4 class="txt1">Budget</h4>
@@ -333,7 +309,7 @@
                 <div class="col-md-12">
                   <div class="item_slide panel">
                     <div class="block_img">
-                      <img src="assets/img/01.png" alt="" />
+                      <img src="{% static 'assets/img/01.png' %}" alt="" />
                       <div class="item__name">
                         <div class="txt">
                           <h4 class="txt1">Budget</h4>
@@ -392,12 +368,12 @@
               <div class="item__price">
                 <div class="logo_price">
                   <div class="icon_gif">
-                    <img class="gif" src="assets/img/gif/partying_face.gif" />
+                    <img class="gif" src="{% static 'assets/img/gif/partying_face.gif' %}" />
                   </div>
                 </div>
-                <h4 class="name_p">Personal</h4>
+                <h4 class="name_p">Startups</h4>
                 <div class="number">
-                  <span class="n_price">0</span>
+                  <span class="n_price">1</span>
                   <span class="coins">$</span>
                   <span class="d-block per">Free</span>
                 </div>
@@ -427,16 +403,16 @@
             </div>
             <div class="col-md-6 col-lg-4">
               <div class="item__price popular">
-                <img class="icon_popular" src="assets/img/popular.svg" />
+                <img class="icon_popular" src="{% static 'assets/img/popular.svg' %}" />
 
                 <div class="logo_price">
                   <div class="icon_gif">
-                    <img class="gif" src="assets/img/gif/nerd_face.gif" />
+                    <img class="gif" src="{% static 'assets/img/gif/nerd_face.gif' %}" />
                   </div>
                 </div>
-                <h4 class="name_p">Professional</h4>
+                <h4 class="name_p">Small Business</h4>
                 <div class="number">
-                  <span class="n_price">49</span>
+                  <span class="n_price">4</span>
                   <span class="coins">$</span>
                   <span class="d-block per">Per User/Month Billed Annually</span>
                 </div>
@@ -480,12 +456,12 @@
               <div class="item__price">
                 <div class="logo_price">
                   <div class="icon_gif">
-                    <img class="gif" src="assets/img/gif/smiling_face_with_sunglasses.gif" />
+                    <img class="gif" src="{% static 'assets/img/gif/smiling_face_with_sunglasses.gif' %}" />
                   </div>
                 </div>
                 <h4 class="name_p">Enterprise</h4>
                 <div class="number">
-                  <span class="n_price">129</span>
+                  <span class="n_price">12</span>
                   <span class="coins">$</span>
                   <span class="d-block per">Per User/Month Billed Annually</span>
                 </div>
@@ -530,7 +506,7 @@
               <div class="item__price">
                 <div class="logo_price">
                   <div class="icon_gif">
-                    <img class="gif" src="assets/img/gif/partying_face.gif" />
+                    <img class="gif" src="{% static 'assets/img/gif/partying_face.gif' %}" />
                   </div>
                 </div>
                 <h4 class="name_p">Personal</h4>
@@ -565,11 +541,11 @@
             </div>
             <div class="col-md-6 col-lg-4">
               <div class="item__price popular">
-                <img class="icon_popular" src="assets/img/popular.svg" />
+                <img class="icon_popular" src="{% static 'assets/img/popular.svg' %}" />
 
                 <div class="logo_price">
                   <div class="icon_gif">
-                    <img class="gif" src="assets/img/gif/nerd_face.gif" />
+                    <img class="gif" src="{% static 'assets/img/gif/nerd_face.gif' %}" />
                   </div>
                 </div>
                 <h4 class="name_p">Professional</h4>
@@ -618,7 +594,7 @@
               <div class="item__price">
                 <div class="logo_price">
                   <div class="icon_gif">
-                    <img class="gif" src="assets/img/gif/smiling_face_with_sunglasses.gif" />
+                    <img class="gif" src="{% static 'assets/img/gif/smiling_face_with_sunglasses.gif' %}" />
                   </div>
                 </div>
                 <h4 class="name_p">Enterprise</h4>
